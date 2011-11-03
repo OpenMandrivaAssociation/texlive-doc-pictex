@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /info/pictex/Doc-PiCTeX.txt
+# catalog-date 2008-09-09 11:27:07 +0200
+# catalog-license other-free
+# catalog-version undef
 Name:		texlive-doc-pictex
 Version:	20080909
 Release:	1
@@ -19,6 +25,7 @@ discussing) documentation of PicTeX.
 #-----------------------------------------------------------------------
 %files
 %doc %{_texmfdistdir}/doc/generic/doc-pictex/Doc-PiCTeX.txt
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -29,3 +36,5 @@ discussing) documentation of PicTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
