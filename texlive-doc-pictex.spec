@@ -1,4 +1,4 @@
-# revision 15878
+# revision 24927
 # category Package
 # catalog-ctan /info/pictex/Doc-PiCTeX.txt
 # catalog-date 2008-09-09 11:27:07 +0200
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-doc-pictex
 Version:	20080909
-Release:	1
+Release:	2
 Summary:	A summary list of PicTeX documentation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/pictex/Doc-PiCTeX.txt
@@ -16,7 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/doc-pictex.doc.ta
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
 
 %description
 A summary of available resources providing (or merely
