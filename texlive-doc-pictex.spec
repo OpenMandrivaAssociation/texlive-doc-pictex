@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-doc-pictex
 Version:	20080909
-Release:	3
+Release:	4
 Summary:	A summary list of PicTeX documentation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/pictex/Doc-PiCTeX.txt
