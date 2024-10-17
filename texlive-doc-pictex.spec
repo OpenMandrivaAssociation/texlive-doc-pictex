@@ -3,7 +3,7 @@ Version:	24927
 Release:	2
 Summary:	A summary list of PicTeX documentation
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/pictex/Doc-PiCTeX.txt
+URL:		https://www.ctan.org/tex-archive/info/pictex/Doc-PiCTeX.txt
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/doc-pictex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/doc-pictex.doc.r%{version}.tar.xz
